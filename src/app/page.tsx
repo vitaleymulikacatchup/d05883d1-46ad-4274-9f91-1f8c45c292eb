@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -109,8 +109,7 @@ export default function Home() {
               company: "Culinary Digest",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/9853292/pexels-photo-9853292.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Portrait of Sarah Johnson",
-              testimonial: "Exceptional dining experience with authentic Italian flavors. The handmade pasta and wine selection are outstanding."
+              imageAlt: "Portrait of Sarah Johnson"
             },
             {
               id: "2",
@@ -119,8 +118,25 @@ export default function Home() {
               company: "City Eats",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/1850625/pexels-photo-1850625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Portrait of Michael Chen",
-              testimonial: "Bella Vista delivers an unforgettable culinary journey. The attention to detail and quality is remarkable."
+              imageAlt: "Portrait of Michael Chen"
+            },
+            {
+              id: "3",
+              name: "Emily Rodriguez",
+              role: "Travel Blogger",
+              company: "Foodie Adventures",
+              rating: 5,
+              imageSrc: "https://images.pexels.com/photos/5086615/pexels-photo-5086615.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              imageAlt: "Portrait of Emily Rodriguez"
+            },
+            {
+              id: "4",
+              name: "David Kim",
+              role: "Local Guide",
+              company: "City Explorer",
+              rating: 5,
+              imageSrc: "https://images.pexels.com/photos/6613044/pexels-photo-6613044.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              imageAlt: "Portrait of David Kim"
             }
           ]}
         />
